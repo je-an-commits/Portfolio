@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="./vendor/node_modules/bootstrap-icons/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="./vendor/node_modules/boxicons/css/boxicons.min.css">
+    <link rel="stylesheet" href="./vendor/OwlCarousel2-2.3.4/dist/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="./vendor/css/color-1.css">
+    <link rel="stylesheet" href="./vendor/css/style-switcher.css">
+    <link rel="stylesheet" href="./vendor/css/style.css">
+    <!-- theme colors -->
+    <link rel="stylesheet" href="./vendor/css/color-1.css" class="alternate-style" title="color-1" disabled>
+    <link rel="stylesheet" href="./vendor/css/color-2.css" class="alternate-style" title="color-2" disabled>
+    <link rel="stylesheet" href="./vendor/css/color-3.css" class="alternate-style" title="color-3" disabled>
+    <link rel="stylesheet" href="./vendor/css/color-4.css" class="alternate-style" title="color-4" disabled>
+    <link rel="stylesheet" href="./vendor/css/color-5.css" class="alternate-style" title="color-5" disabled>
+</head>
+<body>
+    <header class="main-header">
+        <nav class="navbar header-nav navbar-expand-lg">
+            <div class="container">
+               <a href="/main.html" class="navbar-brand"><h4 class="mb-0">Jerico <span class="text-primary">Abalos</span></h4></a>
+               <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-collapse-toggle">
+                    <span class="navbar-toggler-icon"></span>
+                    <span></span>
+                    <span></span>
+               </button>
+               <div class="collapse navbar-collapse justify-content-end" id="navbar-collapse-toggle">
+                    <ul class="navbar-nav mx-auto">
+                        <li><a href="#home" class="nav-link">Home</a></li>
+                        <li><a href="#about" class="nav-link">About Me</a></li>
+                        <li><a href="#services" class="nav-link">Services</a></li>
+                        <li><a href="#skills" class="nav-link">Skills</a></li>
+                        <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
+                    </ul>
+               </div>
+               <div class="ms-auto d-none d-lg-block">
+                    <a href="#contact" class="colored-btn">Contact Now</a>
+               </div>
+               
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- home -->
+        <section class="home-section bg-gray" id="home">
+            <div class="container">
+                <div class="anim-elements">
+                    <div class="anim-element"><i class="bx bxl-html5"></i></div>
+                    <div class="anim-element"><i class="bx bxl-css3"></i></div>
+                    <div class="anim-element"><i class="bx bxl-java"></i></div>
+                    <div class="anim-element"><i class="bx bxl-javascript"></i></div>
+                    <div class="anim-element"><i class="bx bxl-php"></i></div>
+                </div>
+                <div class="row gy-5 align-items-center">
+                    <div class="col-lg-6">
+                        <div class="home-intro text-center text-lg-start">
+                            <h6>Hi, My name is Jerico</h6>
+                            <h1>I'm a <span class="typing"></span></h1>
+                            <p>Based in Cavite, Philippines</p>
+                            <a href="#about" class="colored-btn mt-1"> About Me</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 pt-4 pt-lg-0">
+                        <div class="home-image text-center">
+                            <img src="./img/hero-1.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- about -->
+        <section class="section skill" id="about">
+            <div class="container">
+                <div class="row gy-5 align-items-center">
+                    <div class="col-lg-6 text-center">
+                        <img src="./img/hero-3.jpg" height="550px" width="70%" alt="">
+                    </div>
+                    <div class="col-lg-6 ps-lg-5">
+                        <div class="about-text">
+                            <h3 class="h1 mb-3 fw-semibold">
+                                I'm a college student of CvSU - Tanza Campus.
+                            </h3>
+                            <p>Currently taking the Bachelors of Science in Information Technology and I'm a incoming third year.
+                                I'm also a working student and when I don't have classes, I usually do a job like delivering packages
+                                and I'm also accepting commisions like doing activities for some students.
+                            </p>
+                            <div class="row pt-2">
+                                <div class="col">
+                                    <h5 class="text-primary fw-semibold fs-4 mb-0">50+</h5>
+                                    <span>Completed Commisions</span>
+                                </div>
+                                <div class="col">
+                                    <h5 class="text-primary fw-semibold fs-4 mb-0">1k+</h5>
+                                    <span>Completed Deliveries</span>
+                                </div>
+                                <div class="col">
+                                    <h5 class="text-primary fw-semibold fs-4 mb-0">1k+</h5>
+                                    <span>Happy Clients</span>
+                                </div>
+                            </div>
+                            <div class="row mt-3 pt-2">
+                                <div class="col-12 col-md-12">
+                                    <h4 class=" fw-semibold fs-4 mb-2">Other Info:</h4>
+                                    <div class="accordion shadow-sm" id="accordionExample">
+                                        <div class="accordion-item">
+                                            <h2 class="accordion-header">
+                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                                                Education
+                                            </button>
+                                            </h2>
+                                            <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                                <div class="accordion-body p-0">
+                                                    <ul class="list-group">
+                                                        <li class="list-group-item"><span class="fw-bold text-dark">Secondary: </span>Graduated at Tanza National Trade School - Main (2018 with Honors)</li>
+                                                        <li class="list-group-item"><span class="fw-bold text-dark">Primary: </span>Graduated at Antonio B. Del Rosario Sr. Memorial School (2012)</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="accordion-item">
+                                            <h2 class="accordion-header">
+                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                                Work Experience
+                                            </button>
+                                            </h2>
+                                            <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                                <div class="accordion-body p-0">
+                                                    <ul class="list-group">
+                                                        <li class="list-group-item">Delivery Rider at Lalamove (2022 - Present)</li>
+                                                        <li class="list-group-item">Production Operator at House Technology Industries Pte. Ltd. (2018-2023)</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="accordion-item">
+                                            <h2 class="accordion-header">
+                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                                Hobbies
+                                            </button>
+                                            </h2>
+                                            <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                                <div class="accordion-body p-0">
+                                                    <ul class="list-group">
+                                                        <li class="list-group-item">Playing Computer/Mobile Games.</li>
+                                                        <li class="list-group-item">Travelling from different cities.</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- services -->
+
+        <section class="section bg-gray" id="services">
+            <div class="container">
+                <div class="section-heading">
+                    <h3>My Services</h3>
+                </div>
+                <div class="row gy-5 justify-content-center">
+                    <div class="col-md-6">
+                        <div class="feature-box bg-1">
+                            <div class="icon"><i class="bx bx-brush"></i></div>
+                            <div class="content">
+                                <h5>Web Design</h5>
+                                <p>Accepting web design for your activities/projects.</p>
+                            </div>
+                        </div>
+                    </div>
+                     <div class="col-md-6">
+                        <div class="feature-box bg-2">
+                            <div class="icon"><i class="bx bx-desktop"></i></div>
+                            <div class="content">
+                                <h5>Development</h5>
+                                <p>Accepting web/app development for your business.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="feature-box bg-3">
+                            <div class="icon"><i class="bx bx-wallet"></i></div>
+                            <div class="content">
+                                <h5>Commisions</h5>
+                                <p>Accepting commisions for you activities/projects.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6">
+                        <div class="feature-box bg-4">
+                            <div class="icon"><i class="bi bi-send"></i></div>
+                            <div class="content">
+                                <h5>Deliveries</h5>
+                                <p>Accepting small item deliveries across Luzon.</p>
+                            </div>
+                        </div>
+                    </div>
+                     
+                    
+                </div>
+            </div>
+        </section>
+
+        <!-- skills -->
+        <section class="section" id="skills">
+            <div class="container">
+                <div class="row gy-5">
+                    <div class="col-lg-6">
+                        <div class="section-heading text-start">
+                            <h3>My Skills</h3>
+                        </div>
+                        <div class="skill-box">
+                            <div class="row g-3">
+                                <div class="col-6 col-md-6 col-lg-6">
+                                    <div class="feature-box feature-box-small bg-1">
+                                        <div class="icon">
+                                            <i class="bx bxl-html5"></i>
+                                        </div>
+                                        <h6>HTML</h6>
+                                    </div>
+                                </div>
+                                <div class="col-6 col-md-6 col-lg-6">
+                                    <div class="feature-box feature-box-small bg-2">
+                                        <div class="icon">
+                                            <i class="bx bxl-css3"></i>
+                                        </div>
+                                        <h6>CSS</h6>
+                                    </div>
+                                </div>
+                                <div class="col-6 col-md-6 col-lg-6">
+                                    <div class="feature-box feature-box-small bg-3">
+                                        <div class="icon">
+                                            <i class="bx bxl-javascript"></i>
+                                        </div>
+                                        <h6>JavaScript</h6>
+                                    </div>
+                                </div>
+                                <div class="col-6 col-md-6 col-lg-6">
+                                    <div class="feature-box feature-box-small bg-4">
+                                        <div class="icon">
+                                            <i class="bx bxl-php"></i>
+                                        </div>
+                                        <h6>PHP</h6>
+                                    </div>
+                                </div>
+                                <div class="col-6 col-md-6 col-lg-6">
+                                    <div class="feature-box feature-box-small bg-5">
+                                        <div class="icon">
+                                            <i class="bx bxl-bootstrap"></i>
+                                        </div>
+                                        <h6>Bootstrap</h6>
+                                    </div>
+                                </div>
+                                <div class="col-6 col-md-6 col-lg-6">
+                                    <div class="feature-box feature-box-small bg-6">
+                                        <div class="icon">
+                                            <i class="bx bxl-java"></i>
+                                        </div>
+                                        <h6>Java</h6>
+                                    </div>
+                                </div>
+                                <div class="col-6 col-md-6 col-lg-6">
+                                    <div class="feature-box feature-box-small bg-1">
+                                        <div class="icon">
+                                            <i class="bx bxl-python"></i>
+                                        </div>
+                                        <h6>Python</h6>
+                                    </div>
+                                </div>
+                                <div class="col-6 col-md-6 col-lg-6">
+                                    <div class="feature-box feature-box-small bg-2">
+                                        <div class="icon">
+                                            <i class="bx bxs-data"></i>
+                                        </div>
+                                        <h6>MySQL</h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 text-center px-5">
+                        <!-- <img src="./img/hero-2.jpg" height="550px" width="70%" alt=""> -->
+                         <div class="prog">
+                            <div class="mb-2">
+                                <span>HTML</span>
+                                <div class="progress " role="progressbar" aria-label="Example with label" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
+                                    <div class="progress-bar" style="width: 90%">90%</div>
+                                </div>
+                            </div>
+                            <div class=" my-2">
+                                <span>CSS</span>
+                                <div class="progress " role="progressbar" aria-label="Example with label" aria-valuenow="68" aria-valuemin="0" aria-valuemax="100">
+                                    <div class="progress-bar" style="width: 68%">68%</div>
+                                </div>
+                            </div>
+                            <div class=" my-2">
+                                <span>JavaScript</span>
+                                <div class="progress " role="progressbar" aria-label="Example with label" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100">
+                                    <div class="progress-bar" style="width: 40%">40%</div>
+                                </div>
+                            </div>
+                            <div class=" my-2">
+                                <span>PHP</span>
+                                <div class="progress " role="progressbar" aria-label="Example with label" aria-valuenow="35" aria-valuemin="0" aria-valuemax="100">
+                                    <div class="progress-bar" style="width: 35%">35%</div>
+                                </div>
+                            </div>
+                            <div class=" my-2">
+                                <span>Bootstrap</span>
+                                <div class="progress " role="progressbar" aria-label="Example with label" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100">
+                                    <div class="progress-bar" style="width: 65%">65%</div>
+                                </div>
+                            </div>
+                            <div class=" my-2">
+                                <span>Java</span>
+                                <div class="progress " role="progressbar" aria-label="Example with label" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+                                    <div class="progress-bar" style="width: 50%">50%</div>
+                                </div>
+                            </div>
+                            <div class="my-2">
+                                <span>Python</span>
+                                <div class="progress " role="progressbar" aria-label="Example with label" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">
+                                    <div class="progress-bar" style="width: 60%">60%</div>
+                                </div>
+                            </div>
+                            <div class="my-2">
+                                <span>MySQL</span>
+                                <div class="progress " role="progressbar" aria-label="Example with label" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                                    <div class="progress-bar" style="width: 75%">75%</div>
+                                </div>
+                            </div>
+                         </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- portfolio -->
+         <section class="section bg-gray" id="portfolio">
+            <div class="container">
+                <div class="section-heading">
+                     <h3>Latest Projects</h3>
+                </div>
+                <div class="portfolio-box">
+                    <div class="row gx-3 gy-4 pb-3 mb-5 pb-lg-3 mb-lg-3 justify-content-around align-items-center">
+                        <div class="col-md-6 col-lg-5">
+                            <div class="portfolio-img">
+                                <img src="./img/c.png" alt="">
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-5">
+                            <div class="portfolio-text">
+                                <span>Web Design</span>
+                                <h4>Website Design and Development for Startup</h4>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam facere earum culpa nam dicta natus, enim 
+                                    nihil. Magnam, sed est? Corrupti excepturi adipisci error nihil, odit eos quasi expedita dicta incidunt laudantium 
+                                    ullam in amet ipsam porro perspiciatis commodi omnis natus officia neque? Voluptates natus totam omnis rem, at ex
+                                     non temporibus corporis quo quia.</p>
+                                <a href="#" class="colored-btn mt-1">Live Demo</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="container">
+                <div class="section-heading">
+                     <h3>Testimonials</h3>
+                </div>
+                <div class="owl-carousel">
+                    <div class="feature-box mb-4">
+                        <div class="img">
+                            <img src="/img/jenna.jpg" alt="">
+                        </div>
+                        <div class="content">
+                            <p class="test mb-3">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis
+                                amet id corrupti quod quia, nesciunt nam quo sit expedita temporibus magni, 
+                                voluptate doloribus ad explicabo similique cum ipsum labore atque.
+                            </p>
+                            <h6 class="mb-0 fw-semibold">Jenna Jaspio</h6>
+                            <small>A.Y. 2025</small>
+                        </div>
+                    </div>
+                    <div class="feature-box mb-4">
+                        <div class="img">
+                            <img src="/img/jaymie.jpg" alt="">
+                        </div>
+                        <div class="content">
+                            <p class="test mb-3">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis
+                                amet id corrupti quod quia, nesciunt nam quo sit expedita temporibus magni, 
+                                voluptate doloribus ad explicabo similique cum ipsum labore atque.
+                            </p>
+                            <h6 class="mb-0 fw-semibold">Jaymie Matawaran</h6>
+                            <small>A.Y. 2025</small>
+                        </div>
+                    </div>
+                    <div class="feature-box mb-4">
+                        <div class="img">
+                            <img src="/img/jonalyn.jpg" alt="">
+                        </div>
+                        <div class="content">
+                            <p class="test mb-3">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis
+                                amet id corrupti quod quia, nesciunt nam quo sit expedita temporibus magni, 
+                                voluptate doloribus ad explicabo similique cum ipsum labore atque.
+                            </p>
+                            <h6 class="mb-0 fw-semibold">Jonalyn Abayon</h6>
+                            <small>A.Y. 2025</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section contact" id="contact">
+            <div class="container">
+                <div class="row gy-5">
+                    <div class="col-lg-6">
+                        <div class="contact-form">
+                            <h2 class="text-dark">Get in Touch</h2>
+                            <p class="lead">Send me a message.</p>
+                            <div class="row gy-4 gx-4">
+                                <div class="col-12">
+                                    <div class="form-group">
+                                        <label for="" class="form-label">Name</label>
+                                        <input type="text" class="form-control" name="name">
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="form-group">
+                                        <label for="" class="form-label">Email</label>
+                                        <input type="email" class="form-control" name="email">
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="form-group">
+                                        <label for="" class="form-label">Subject</label>
+                                        <input type="text" class="form-control" name="subject">
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="form-group">
+                                        <label for="" class="form-label">Message</label>
+                                        <textarea  name="message" rows="3" class="form-control"></textarea>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <button type="submit" class="colored-btn">Send Message</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-5 ms-auto col-xl-4">
+                        <div class="pb5 d-none d-md-block">
+                            <img src="./img/hero-2.jpg" alt="" width="70%">
+                        </div>
+                        <ul class="contact-infos mt-3">
+                            <li>
+                                <div class="icon bg-1">
+                                    <i class="bx bx-phone"></i>
+                                </div>
+                                <div class="col ps-3">
+                                    <h5>Phone</h5>
+                                    <p>+63 920 665 0191</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="icon bg-2">
+                                    <i class="bx bx-envelope"></i>
+                                </div>
+                                <div class="col ps-3">
+                                    <h5>Mail</h5>
+                                    <p>ja.abalos18@gmail.com</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="icon bg-4">
+                                    <i class="bx bx-map"></i>
+                                </div>
+                                <div class="col ps-3">
+                                    <h5>Visit My Place</h5>
+                                    <p>Tanza, Cavite</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <div class="style-switcher">
+        <div class="style-switcher-toggler s-icon">
+            <i class="bi bi-gear-fill"></i>
+        </div>
+        <div class="day-night s-icon">
+            <i class="bi "></i>
+        </div>
+        <h4>Theme Colors</h4>
+        <div class="colors">
+            <span class="color-1" onclick="setActiveStyle('color-1')"></span>
+            <span class="color-2" onclick="setActiveStyle('color-2')"></span>
+            <span class="color-3" onclick="setActiveStyle('color-3')"></span>
+            <span class="color-4" onclick="setActiveStyle('color-4')"></span>
+            <span class="color-5" onclick="setActiveStyle('color-5')"></span>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6 py-2">
+                    <div class="nav justify-content-center justify-content-md-start">
+                        <a href=""><i class="bx bxl-facebook"></i></a>
+                        <a href=""><i class="bx bxl-instagram"></i></a>
+                        <a href=""><i class="bx bxl-twitter"></i></a>
+                        <a href=""><i class="bx bxl-linkedin"></i></a>
+                    </div>
+                </div>
+                <div class="col-md-6 text-center text-md-end">
+                    <p class="mb-0">&copy; 2025 Copyright all rights reserved | Jerico Andrei Abalos</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.1.0/typed.umd.js" integrity="sha512-+2pW8xXU/rNr7VS+H62aqapfRpqFwnSQh9ap6THjsm41AxgA0MhFRtfrABS+Lx2KHJn82UOrnBKhjZOXpom2LQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    <script src="./vendor/OwlCarousel2-2.3.4/dist/owl.carousel.min.js"></script>
+
+    <script src="./vendor/js/script.js"></script>
+</body>
+</html>
